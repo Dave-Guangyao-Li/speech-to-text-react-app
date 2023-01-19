@@ -1,6 +1,5 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import { Container } from 'react-bootstrap';
 
 // speech to text and save to notes
 
