@@ -1,0 +1,27 @@
+.card {
+  /* //stay on the center of screen */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 600px;
+  min-height: auto;
+}
+
+.ctl-btn {
+  /* flex and space between two buttons*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-text {
+  /* //text align center */
+  text-align: center;
+}
+
+/* make card responsive on smaller screen */
+@media screen and (max-width: 600px) {
+  .card {
+    min-width: 300px;
+  }
+}
